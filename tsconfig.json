@@ -24,7 +24,20 @@
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "strictNullChecks": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "~assets/*": ["src/assets/*"],
+      "~components/*": ["src/components/*"],
+      "~config/*": ["src/config/*"],
+      "~contexts/*": ["src/contexts/*"],
+      "~hooks/*": ["src/hooks/*"],
+      "~interfaces/*": ["src/interfaces/*"],
+      "~layouts/*": ["src/layouts/*"],
+      "~router/*": ["src/router/*"],
+      "~screens/*": ["src/screens/*"],
+      "~store/*": ["src/store/*"],
+      "~utils/*": ["src/utils/*"]
+    }
   },
   "include": ["./src/**/*"]
 }
